@@ -1,0 +1,21 @@
+JSON dumps
+    used to convert a python object (usually a dictionary) to a 
+    json-formatted string
+
+JSON Loads
+    does the opposite of dumps, used to parse a json-formatted 
+    string and convert it back into a python object (usually a 
+    dictionary).
+
+
+with
+ensures proper handling of the file by automatically 
+closing it after indented block
+
+f.write
+writes the json-formatted string to the opened file, 
+saving the converted data into json format.
+
+f
+this is just a variable, developers use f and it stands
+for file

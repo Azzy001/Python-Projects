@@ -1,0 +1,16 @@
+{
+    "google":{
+        "title":"google search engine",
+        "description":"this is for ticket handling"
+    },
+
+    "youtube":{
+        "title":"youtube video site",
+        "description":"use for BYOD services/GitLab"
+    },
+
+    "amazon":{
+        "title":"amazon shopping store",
+        "description":"ecommerce for buying/selling"
+    }
+}

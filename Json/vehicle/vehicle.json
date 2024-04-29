@@ -1,0 +1,12 @@
+{
+    "bmw":{
+        "model":"3 Series",
+        "colour":"Gold",
+        "quantity":20
+    },
+    "audi":{
+        "model":"R8",
+        "colour":"Baby Blue",
+        "quantity":5
+    }
+}
