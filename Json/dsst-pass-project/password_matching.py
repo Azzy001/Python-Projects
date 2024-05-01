@@ -1,13 +1,18 @@
 import json
 
-with open("json/dsst-pass-project/pass-site-matching.json", "r") as f1:
-    link_data = json.load(f1)
+# line will read json file
+with open("json/dsst-pass-project/link_address.json", "r") as f1:
+    # line to load json file into variable
+    sites_address = json.load(f1)
 
-with open("json/dsst-pass-project/pass-matching.json", "r") as f2:
-    pass_data = json.load(f2)
 
+def find_link(input_link):
+    for link in sites_address.values():
+        if link in input_link:
+            print("Link exists", f"{link}")
+            return
+    print("Link does not exist")
 
-input_link = input("Enter link: ")
-
-for pass_key, pass_items in pass_data.items():
-    print(pass_key, pass_items)
+    
+if __name__ == "__main__":
+    find_link(input_link = input("\nEnter link: "))
